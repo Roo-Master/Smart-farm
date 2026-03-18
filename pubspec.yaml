@@ -1,0 +1,85 @@
+name: smart_farming
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.0.5
+
+  # API calls and utilities
+  http: ^1.2.0
+  intl: ^0.18.1
+
+  # Icons & UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  flutter_markdown: ^0.6.18
+  camera: ^0.10.5+9
+
+  # Firebase
+  firebase_core: ^2.25.0
+  cloud_firestore: ^4.15.0
+  firebase_auth: ^4.17.0
+  firebase_storage: ^11.6.0
+
+  # Maps & Location
+  geolocator: ^11.0.0
+  google_maps_flutter: ^2.5.0
+
+  # IoT / MQTT
+  mqtt_client: ^10.0.0
+
+  # Voice input
+  speech_to_text: ^6.6.0
+
+  # Connectivity check
+  connectivity_plus: ^5.0.2
+
+  # Image picking / Camera
+  image_picker: ^1.0.7
+
+  # Charts / Analytics
+  fl_chart: ^0.66.0
+
+  # Local notifications
+  flutter_local_notifications: ^17.0.0
+
+  # File handling (PDF / reports)
+  path_provider: ^2.1.2
+  pdf: ^3.10.7
+  printing: ^5.12.0
+
+  # Animations
+  lottie: ^3.1.0
+
+  # Advanced API client
+  dio: ^5.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Add custom fonts here if needed
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
+  #       - asset: fonts/Inter-Bold.ttf
+  #         weight: 700
